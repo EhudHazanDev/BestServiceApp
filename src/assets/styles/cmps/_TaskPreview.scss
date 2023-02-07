@@ -1,0 +1,17 @@
+.taskPreview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    p {
+        width: 18%;
+        font-size: 1rem;
+        margin: 10px;
+    }
+    .doneBtn {
+        cursor: pointer;
+        font-weight: bold;
+    }
+}
+
+.columnHeaders {}
