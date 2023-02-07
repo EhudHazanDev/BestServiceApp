@@ -1,0 +1,17 @@
+.AppFooter {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #539bf5;
+    background: #2d333b;
+    .Copy-right {
+        font-size: 24px;
+    }
+    h4,
+    h1 {
+        padding: 0px;
+        margin: 0px;
+    }
+}

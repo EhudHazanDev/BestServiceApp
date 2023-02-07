@@ -1,0 +1,39 @@
+.AppHeader {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    .Navbar {
+        .menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            list-style: none;
+            li {
+                margin-right: 40px;
+                .Preveiw-tasks {
+                    color: #adbac7;
+                    &:hover {
+                        cursor: pointer;
+                        border-bottom: 2px solid #adbac7;
+                    }
+                }
+                .Archive {
+                    color: #adbac7;
+                    &:hover {
+                        cursor: pointer;
+                        border-bottom: 2px solid #adbac7;
+                    }
+                }
+                .Add-task {
+                    color: #adbac7;
+                    &:hover {
+                        cursor: pointer;
+                        border-bottom: 2px solid #adbac7;
+                    }
+                }
+            }
+        }
+    }
+}
